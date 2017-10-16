@@ -10,8 +10,7 @@
   <email>chuck@horde.org</email>
   <active>yes</active>
  </lead>
- <date>2012-11-19</date>
- <time>14:08:33</time>
+ <date>2017-10-17</date>
  <version>
   <release>1.0.0beta1</release>
   <api>1.0.0</api>
@@ -26,13 +25,6 @@
  </notes>
  <contents>
   <dir baseinstalldir="/" name="/">
-   <dir name="doc">
-    <dir name="Horde">
-     <dir name="PubSub">
-      <file name="COPYING" role="doc" />
-     </dir> <!-- /doc/Horde/PubSub -->
-    </dir> <!-- /doc/Horde -->
-   </dir> <!-- /doc -->
    <dir name="lib">
     <dir name="Horde">
      <dir name="PubSub">
@@ -54,6 +46,7 @@
      </dir> <!-- /test/Horde/PubSub -->
     </dir> <!-- /test/Horde -->
    </dir> <!-- /test -->
+   <file name="LICENSE" role="doc" />
   </dir> <!-- / -->
  </contents>
  <dependencies>
@@ -79,10 +72,10 @@
  </dependencies>
  <phprelease>
   <filelist>
-   <install as="COPYING" name="doc/Horde/PubSub/COPYING" />
    <install as="Horde/PubSub.php" name="lib/Horde/PubSub.php" />
    <install as="Horde/PubSub/Handle.php" name="lib/Horde/PubSub/Handle.php" />
    <install as="Horde/PubSub/Provider.php" name="lib/Horde/PubSub/Provider.php" />
+   <install as="LICENSE" name="LICENSE" />
    <install as="Horde/PubSub/AllTests.php" name="test/Horde/PubSub/AllTests.php" />
    <install as="Horde/PubSub/bootstrap.php" name="test/Horde/PubSub/bootstrap.php" />
    <install as="Horde/PubSub/HandleTest.php" name="test/Horde/PubSub/HandleTest.php" />
