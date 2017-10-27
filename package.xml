@@ -10,7 +10,7 @@
   <email>chuck@horde.org</email>
   <active>yes</active>
  </lead>
- <date>2017-10-20</date>
+ <date>2017-10-27</date>
  <version>
   <release>1.0.0beta1</release>
   <api>1.0.0</api>
@@ -25,6 +25,13 @@
  </notes>
  <contents>
   <dir baseinstalldir="/" name="/">
+   <dir name="doc">
+    <dir name="Horde">
+     <dir name="PubSub">
+      <file name="CHANGES" role="doc" />
+     </dir> <!-- /doc/Horde/PubSub -->
+    </dir> <!-- /doc/Horde -->
+   </dir> <!-- /doc -->
    <dir name="lib">
     <dir name="Horde">
      <dir name="PubSub">
@@ -71,6 +78,7 @@
  </dependencies>
  <phprelease>
   <filelist>
+   <install as="CHANGES" name="doc/Horde/PubSub/CHANGES" />
    <install as="Horde/PubSub.php" name="lib/Horde/PubSub.php" />
    <install as="Horde/PubSub/Handle.php" name="lib/Horde/PubSub/Handle.php" />
    <install as="Horde/PubSub/Provider.php" name="lib/Horde/PubSub/Provider.php" />
