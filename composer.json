@@ -1,5 +1,5 @@
 {
-    "name": "horde/horde-pubsub",
+    "name": "horde/pubsub",
     "description": "Horde Publish/Subscribe library",
     "type": "library",
     "homepage": "https://pear.horde.org",
