@@ -9,4 +9,4 @@
     identifier: BSD-2-Clause
     uri: http://www.horde.org/licenses/bsd
   notes: |
-    First alpha release for Horde 4.
+    [jan] Mark PHP 7 as supported.
