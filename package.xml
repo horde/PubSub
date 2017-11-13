@@ -2,7 +2,7 @@
 <package packagerversion="1.9.2" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
  <name>Horde_PubSub</name>
  <channel>pear.horde.org</channel>
- <summary>Horde Publish/Subscribe library</summary>
+ <summary>Publish/Subscribe library</summary>
  <description>Horde Publish/Subscribe package that can act as an inter-app messaging hub.</description>
  <lead>
   <name>Chuck Hagenbuch</name>
@@ -10,14 +10,14 @@
   <email>chuck@horde.org</email>
   <active>yes</active>
  </lead>
- <date>2017-10-27</date>
+ <date>2017-11-11</date>
  <version>
-  <release>1.0.0beta1</release>
+  <release>1.0.0alpha1</release>
   <api>1.0.0</api>
  </version>
  <stability>
-  <release>beta</release>
-  <api>beta</api>
+  <release>alpha</release>
+  <api>alpha</api>
  </stability>
  <license uri="http://www.horde.org/licenses/bsd">BSD-2-Clause</license>
  <notes>
@@ -100,10 +100,10 @@
     <release>alpha</release>
     <api>alpha</api>
    </stability>
-   <date>2011-03-07</date>
+   <date>2017-11-11</date>
    <license uri="http://www.horde.org/licenses/bsd">BSD-2-Clause</license>
    <notes>
-* First alpha release for Horde 4.
+* [jan] Mark PHP 7 as supported.
    </notes>
   </release>
  </changelog>
