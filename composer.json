@@ -1,8 +1,8 @@
 {
     "name": "horde/pubsub",
-    "description": "Horde Publish/Subscribe library",
+    "description": "Publish/Subscribe library",
     "type": "library",
-    "homepage": "https://pear.horde.org",
+    "homepage": "https://www.horde.org",
     "license": "BSD-2-Clause",
     "authors": [
         {
@@ -11,8 +11,8 @@
             "role": "lead"
         }
     ],
-    "version": "1.0.0beta1",
-    "time": "2012-11-19",
+    "version": "1.0.0alpha1",
+    "time": "2017-11-15",
     "repositories": [
         {
             "type": "pear",
