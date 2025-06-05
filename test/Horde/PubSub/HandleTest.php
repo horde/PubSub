@@ -1,9 +1,11 @@
 <?php
+
 /**
  * @category   Horde
  * @package    PubSub
  * @subpackage UnitTests
  * @license    New BSD {@link http://www.opensource.org/licenses/bsd-license.php}
+ * @coversNothing
  */
 class Horde_PubSub_HandleTest extends Horde_Test_Case
 {
@@ -29,13 +31,13 @@ class Horde_PubSub_HandleTest extends Horde_Test_Case
     public function testCallbackShouldBeArrayIfHandlerPassedToConstructor()
     {
         $handle = new Horde_PubSub_Handle('foo', 'bar', 'baz');
-        $this->assertSame(array('bar', 'baz'), $handle->getCallback());
+        $this->assertSame(['bar', 'baz'], $handle->getCallback());
     }
 
     public function testCallShouldInvokeCallbackWithSuppliedArguments()
     {
         $handle = new Horde_PubSub_Handle('foo', $this, 'handleCall');
-        $args   = array('foo', 'bar', 'baz');
+        $args   = ['foo', 'bar', 'baz'];
         $handle->call($args);
         $this->assertSame($args, $this->args);
     }

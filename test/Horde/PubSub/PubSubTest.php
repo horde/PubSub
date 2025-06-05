@@ -1,9 +1,11 @@
 <?php
+
 /**
  * @category   Horde
  * @package    PubSub
  * @subpackage UnitTests
  * @license    New BSD {@link http://www.opensource.org/licenses/bsd-license.php}
+ * @coversNothing
  */
 class Horde_PubSub_PubSubTest extends Horde_Test_Case
 {

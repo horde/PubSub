@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Publish-Subscribe system based on Phly_PubSub
  * (http://weierophinney.net/matthew/archives/199-A-Simple-PHP-Publish-Subscribe-System.html)
@@ -23,7 +24,7 @@ class Horde_PubSub
     /**
      * Subscribed topics and their handles
      */
-    protected static $_topics = array();
+    protected static $_topics = [];
 
     /**
      * Publish to all handlers for a given topic
@@ -55,7 +56,7 @@ class Horde_PubSub
     public static function subscribe($topic, $context, $handler = null)
     {
         if (empty(self::$_topics[$topic])) {
-            self::$_topics[$topic] = array();
+            self::$_topics[$topic] = [];
         }
         $handle = new Horde_PubSub_Handle($topic, $context, $handler);
         if (in_array($handle, self::$_topics[$topic])) {
@@ -104,7 +105,7 @@ class Horde_PubSub
     public static function getSubscribedHandles($topic)
     {
         if (empty(self::$_topics[$topic])) {
-            return array();
+            return [];
         }
         return self::$_topics[$topic];
     }

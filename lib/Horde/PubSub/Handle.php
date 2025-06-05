@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Publish-Subscribe system based on Phly_PubSub
  * (http://weierophinney.net/matthew/archives/199-A-Simple-PHP-Publish-Subscribe-System.html)
@@ -46,7 +47,7 @@ class Horde_PubSub_Handle
         if (null === $handler) {
             $this->_callback = $context;
         } else {
-            $this->_callback = array($context, $handler);
+            $this->_callback = [$context, $handler];
         }
     }
 
