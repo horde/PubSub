@@ -1,0 +1,24 @@
+---
+1.0.0-alpha1:
+  api: 1.0.0
+  state:
+    release: alpha
+    api: alpha
+  date: 2011-03-07
+  license:
+    identifier: BSD-2-Clause
+    uri: http://www.horde.org/licenses/bsd
+  notes: |
+    Original version string was 1.0.0alpha1
+    [jan] Mark PHP 7 as supported.
+0.0.1-alpha2:
+  api: 1.0.0
+  state:
+    release: alpha
+    api: stable
+  date: 2025-06-05
+  license:
+    identifier: BSD-2-Clause
+    uri: http://www.horde.org/licenses/bsd
+  notes: |
+    style: Apply php-cs-fixer php8.3+ rules
