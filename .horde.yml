@@ -24,3 +24,5 @@ license:
 dependencies:
   required:
     php: ^7.4 || ^8
+keywords: []
+vendor: horde
