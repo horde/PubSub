@@ -6,8 +6,7 @@ description: A Publish/Subscribe library that can act as an inter-app messaging 
 list: dev
 type: library
 authors:
-  -
-    name: Chuck Hagenbuch
+  - name: Chuck Hagenbuch
     user: chuck
     email: chuck@horde.org
     active: false
@@ -26,3 +25,13 @@ dependencies:
     php: ^7.4 || ^8
 keywords: []
 vendor: horde
+ci-platform:
+  '8.0': not resolvable
+  '8.1': not resolvable
+  '8.2': not resolvable
+  '8.3': not resolvable
+  '8.4': not resolvable
+  '8.5': not resolvable
+  '8.6': not resolvable
+ci-platform-flags:
+  needs_installer_plugin: false
